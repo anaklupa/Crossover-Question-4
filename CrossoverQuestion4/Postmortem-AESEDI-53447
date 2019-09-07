@@ -51,12 +51,6 @@ Detection:
 Missing customer data. No automated alert due to EDI to CIS monitoring issue. Missed records were not discovered automatically. User had to report it. 
 
 Action items:
-
-Action Item
-Type
-Owner
-Bug
-
 Action Item:  Need to fix the EDI issue that is causing the Jira issue AESCIS-38263
 Type          EDI
 Owner         Patrick Sampollo / Devops
@@ -72,15 +66,17 @@ Action Item:  Create an automated method of monitoring missing file records or o
 Type          EDI
 Owner         Patrick Sampollo / Devops
 Bug           Jira Issue No. AESCIS-38263
-Manual checking needed until monitoring is fixed
-EDI
-Patrick Sampollo / Devops
-Jira Issue No. AESCIS-38263
+
+Action Item:  Manual checking needed until monitoring is fixed
+Type          EDI
+Owner         Patrick Sampollo / Devops
+Bug           Jira Issue No. AESCIS-38263
 
 
-Lessons Learned:
-What went well:
+Lessons Learned:    
 Resolution was fast enough.
+
+What went well:     
 Simply resending the file resolved it.
 
 What went wrong:
@@ -92,23 +88,24 @@ Where we got lucky:
 We did not need to manually update the records to fix it
 
 
-
 Timeline:
+Datetime      September 7, 2019 11:56 AM
+Description   Missing files issue was discovered and logged.
 
-Datetime
-Description
-September 7, 2019 11:56 AM
-Missing files issue was discovered and logged.
-September 7, 2019 12:00 PM
-Devops team troubleshoot the issue and try find a solution/workaround.
-September 7, 2019 12:30 PM
-Devops find a possible solution. Tests are being done. We update the users.
-September 7, 2019 12:45 PM
-File was resent.
-September 7, 2019 1:00 PM
-Records were processed.
-September 7, 2019 1:15 PM
-Problem record created and action items for permanent solution/monitoring are created. We inform the user that we are coming up with a permanent solution.
+Datetime      September 7, 2019 12:00 PM
+Description   Devops team troubleshoot the issue and try find a solution/workaround.
+
+Datetime      September 7, 2019 12:30 PM
+Description   Devops find a possible solution. Tests are being done. We update the users.
+
+Datetime      September 7, 2019 12:45 PM
+Description   File was resent.
+
+Datetime      September 7, 2019 1:00 PM
+Description   Records were processed.
+
+Datetime      September 7, 2019 1:15 PM
+Description   Problem record created and action items for permanent solution/monitoring are created. We inform the user that we are coming up with a permanent solution.
 
 Supporting Information: 
 Jira issue No. AESCIS-38263
